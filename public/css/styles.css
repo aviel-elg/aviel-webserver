@@ -1,10 +1,13 @@
 body {
-    color: #333333;
+    color: #ffffff;
     font-family: arial;
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
-    
+    background-image: url('/img/wallpaper.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -15,7 +18,7 @@ body {
 }
 
 footer {
-    color: #888888;
+    color: #d6d6d6;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
@@ -27,7 +30,7 @@ header {
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 5em;
     margin-bottom: 16px;
 }
 
@@ -35,6 +38,11 @@ header a {
     color: #888888;
     margin-right: 16px;
     text-decoration: none;
+    font-size: 2.2em;
+}
+
+p {
+    font-size: 1.6em;
 }
 
 .about-image {
@@ -44,6 +52,7 @@ header a {
 input {
     border: 1px solid #cccccc;
     padding: 8px;
+    font-size: 1.6em;
 }
 
 button {
@@ -52,4 +61,5 @@ button {
     background: #888888;
     color: white;
     padding: 8px;
+    font-size: 1.6em;
 }
